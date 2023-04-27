@@ -9,7 +9,7 @@ const projects = await getProjects();
 {
   projects.map((project) => (
     <Card
-      href={`${project.url}`}
+      href={`${project.html_url}`}
       title={`${project.name}`}
       body={`${project.description}`}
     />
