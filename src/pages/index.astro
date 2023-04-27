@@ -1,0 +1,146 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Articles from "../components/Articles.astro";
+import CTA from "../components/CTA.astro";
+import Footer from "../components/Footer.astro";
+import Frameworks from "../components/Frameworks.astro";
+import Projects from "../components/Projects.astro";
+import Languages from "../components/Languages.astro";
+import Social from "../components/Social.astro";
+import Tools from "../components/Tools.astro";
+
+import { getArticles } from "../lib/articles.js";
+
+const articles = await getArticles();
+---
+
+<Layout title="Amanda Martins Xavier - Application Developer">
+  <main>
+    <header>
+      <img
+        src="assets/avatar.webp"
+        alt="Photo of Amanda smiling with black hair, golden rounded glasses, and the 2021's Hacktoberfest t-shirt."
+      />
+      <h1 class="text-gradient">Amanda Martins Xavier</h1>
+      <h2>Application Developer at IBM</h2>
+      <h3>A.S. System Analysis and Development</h3>
+      <Social />
+    </header>
+    <div class="bio">
+      <p>
+        <strong>📚 Bio:</strong> Passionate software developer, mainly working with
+        small agile teams to deliver valuable and effective solutions, seeking a
+        place to collaborate, promote changes, evolve and start an international
+        career. An <strong>open-source</strong> collaborator and volunteer member
+        of the <strong>Feministech</strong> and <strong>A Caverna</strong> communities,
+        participating in online events and projects and writing about careers and
+        technology for those interested in starting their careers in the field. Areas
+        of knowledge include:
+      </p>
+
+      <ul>
+        <li>☁️ Cloud-native applications development.</li>
+        <li>🛠️ Infrastructure and DevOps culture.</li>
+        <li>🗃️ Relational and Non-Relational database management.</li>
+        <li>💡 Object-oriented and Functional programming.</li>
+        <li>🧪 Test-driven development.</li>
+      </ul>
+    </div>
+    <section id="frameworks">
+      <h4>🧰 Frameworks:</h4>
+      <Frameworks />
+    </section>
+    <section id="languages">
+      <h4>📄 Languages:</h4>
+      <Languages />
+    </section>
+    <section id="tools">
+      <h4>🛠️ Tools:</h4>
+      <Tools />
+    </section>
+    <section id="articles">
+      <h4>📖 Articles:</h4>
+      <ul role="list" class="link-card-grid">
+        <Articles />
+      </ul>
+    </section>
+    <section id="projects">
+      <h4>🗃️ Projects:</h4>
+      <ul role="list" class="link-card-grid">
+        <Projects />
+      </ul>
+    </section>
+    <CTA />
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 1.5rem;
+    max-width: 80ch;
+  }
+  header {
+    text-align: center;
+    margin: 3rem 0;
+  }
+  header img {
+    border-radius: 50%;
+  }
+  section {
+    margin: 3rem 0;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+  }
+  h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+  }
+  h2,
+  h3,
+  h4 {
+    margin: 1rem 0;
+    color: #f8f8f2;
+  }
+  h2,
+  h4 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .text-gradient {
+    background-image: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400%;
+    background-position: 0%;
+  }
+  .bio {
+    line-height: 1.6;
+    margin: 1rem 0;
+    border: 1px solid rgba(var(--accent), 25%);
+    background-color: #313341;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    color: #f8f8f2;
+  }
+  .bio p {
+    margin: 0;
+  }
+  .bio ul {
+    margin: 1rem 0 0 0;
+  }
+  .bio strong {
+    color: rgb(var(--accent));
+  }
+  .link-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(32ch, 1fr));
+    gap: 1rem;
+    padding: 0;
+  }
+</style>
