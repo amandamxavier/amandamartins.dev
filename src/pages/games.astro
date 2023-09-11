@@ -1,0 +1,19 @@
+---
+import Card from "../components/Card.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import Layout from "../layouts/Layout.astro";
+
+import { getReposByTopic } from "../lib/repos.js";
+
+const games = await getReposByTopic("game");
+---
+
+<Layout title="Amanda Martins Xavier - Games">
+  <Header />
+  <section>
+    <h3>Games:</h3>
+    <Card data={games} />
+  </section>
+  <Footer />
+</Layout>

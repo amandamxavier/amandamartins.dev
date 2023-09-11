@@ -1,0 +1,22 @@
+---
+import Contacts from "../components/Contacts.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Amanda Martins Xavier - Contact">
+  <Header />
+  <section>
+    <h3>Contact:</h3>
+    <p>If you want to know more about me and my work, you can reach me via email, Discord, Instagram or LinkedIn. I’d love to hear from you! 😊</p>
+    <Contacts />
+  </section>
+  <Footer />
+</Layout>
+
+<style>
+  section {
+    text-align: center;
+  }
+</style>

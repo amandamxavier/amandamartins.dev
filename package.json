@@ -1,11 +1,11 @@
 {
   "name": "website",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My professional portfolio, built to showcase my content and projects",
   "homepage": "https://amandamartins.dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amandamartinsxavier/website.git"
+    "url": "https://github.com/pixelmandy/website.git"
   },
   "author": "Amanda Martins Xavier <hi@amandamartins.dev> (https://amandamartins.dev)",
   "license": "GPL-3.0",
@@ -19,14 +19,14 @@
     "lint": "eslint && prettier .  --write"
   },
   "dependencies": {
-    "astro": "^2.2.2"
+    "astro": "^3.0.12"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^5.59.1",
+    "@typescript-eslint/parser": "^6.6.0",
     "eslint": "^8.39.0",
-    "eslint-plugin-astro": "^0.26.1",
-    "prettier": "^2.8.8",
-    "prettier-plugin-astro": "^0.8.0",
+    "eslint-plugin-astro": "^0.29.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-astro": "^0.12.0",
     "typescript": "^5.0.4"
   }
 }

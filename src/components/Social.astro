@@ -2,19 +2,19 @@
   <li>
     <a
       class="fa-brands fa-linkedin"
-      href="https://linkedin.com/in/amandamartinsdev"
+      href="https://linkedin.com/in/pixelmandy"
       target="_blank"></a>
   </li>
   <li>
     <a
-      class="fa-brands fa-github-alt"
-      href="https://github.com/amandamartinsdev"
+      class="fa-brands fa-github"
+      href="https://github.com/pixelmandy"
       target="_blank"></a>
   </li>
   <li>
     <a
       class="fa-brands fa-itch-io"
-      href="https://amandamartins.itch.io"
+      href="https://pixelmandy.itch.io"
       target="_blank"></a>
   </li>
   <li>
@@ -26,14 +26,32 @@
   </li>
   <li>
     <a
+      class="fa-brands fa-discord"
+      href="https://discord.com/invite/TgGAXqH6Zf"
+      target="_blank"></a>
+  </li>
+  <li>
+    <a
+      class="fa-brands fa-instagram"
+      href="https://instagram.com/pixelmandy_"
+      target="_blank"></a>
+  </li>
+  <li>
+    <a
+      class="fa-brands fa-tiktok"
+      href="https://tiktok.com/@pixelmandy"
+      target="_blank"></a>
+  </li>
+  <li>
+    <a
       class="fa-brands fa-twitch"
-      href="https://twitch.tv/amandamartinsdev"
+      href="https://twitch.tv/pixelmandy"
       target="_blank"></a>
   </li>
   <li>
     <a
       class="fa-brands fa-youtube"
-      href="https://youtube.com/@mandys_"
+      href="https://youtube.com/@pixelmandy"
       target="_blank"></a>
   </li>
 </ul>
@@ -41,6 +59,8 @@
 <style>
   ul {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     list-style: none;
     padding: 0;
@@ -49,10 +69,14 @@
     text-decoration: none;
     margin: 0.5rem;
     font-size: 1.5rem;
-    color: #f8f8f2;
+    background-color: var(--secondary);
+    padding: .6rem;
+    border-radius: 100%;
+    color: var(--primary);
     transition: 0.3s;
   }
-  ul a:is(:hover, :focus-within) {
-    color: rgb(var(--accent));
+  ul a:hover {
+    background-color: var(--accent);
+    color: var(--secondary);
   }
 </style>

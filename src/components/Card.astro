@@ -1,64 +1,82 @@
 ---
 export interface Props {
-  title: string;
-  body: string;
-  href: string;
+  data: {
+    url: string;
+    title: string;
+    description: string;
+  }[];
 }
 
-const { href, title, body } = Astro.props;
+const { data } = Astro.props;
 ---
 
-<li class="link-card">
-  <a href={href} target="_blank">
-    <h2>
-      {title}
-    </h2>
-    <p>
-      {body}
-    </p>
-  </a>
-</li>
+<ul role="list" class="link-card-grid">
+  {
+    data.map((item) => (
+      <li class="link-card">
+        <a href={item.url} target="_blank">
+          <div>
+            <h2>{item.title}</h2>
+            <p>{item.description}</p>  
+          </div>
+          <p class="check-out">Check out <span class="fa-solid fa-arrow-up-right-from-square" /></p>
+        </a>
+      </li>
+    ))
+  }
+</ul>
+
 <style>
   .link-card {
     list-style: none;
     display: flex;
-    padding: 0.25rem;
-    background-color: #282a36;
-    background-image: none;
-    background-size: 400%;
-    border: 1px solid #44475a;
+    padding: 1rem;
+    background-color: var(--primary);
+    border: 2px dashed var(--accent);
     border-radius: 0.6rem;
     background-position: 100%;
-    transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-      0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
   }
-
-  .link-card > a {
-    width: 100%;
+  .link-card:hover {
+    opacity: 0.6;
+  }
+  h2,
+  p,
+  a {
     text-decoration: none;
-    line-height: 1.4;
-    padding: 1rem 1.3rem;
-    border-radius: 0.35rem;
-    color: #f8f8f2;
-    background-color: #282a36;
-    opacity: 0.8;
+  }
+  a {
+    color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  a:hover .check-out {
+    border-bottom: 2px dashed var(--accent);
   }
   h2 {
+    color: var(--accent);
     margin: 0;
-    font-size: 1.25rem;
-    transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+    font-size: 1.1rem;
   }
   p {
     margin-top: 0.5rem;
+  }
+  .check-out {
+    display: flex;
+    align-items: center; 
+    padding-bottom: .5rem;
     margin-bottom: 0;
-    color: #f8f8f2;
+    border-bottom: 2px dashed transparent;
   }
-  .link-card:is(:hover, :focus-within) {
-    background-position: 0;
-    background-image: var(--accent-gradient);
+  .check-out span {
+    padding: 0 .8rem;
   }
-  .link-card:is(:hover, :focus-within) h2 {
-    color: rgb(var(--accent));
+  .link-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(32ch, 1fr));
+    gap: 1rem;
+    padding: 0;
   }
 </style>

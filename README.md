@@ -3,25 +3,23 @@
 > ❓ My professional portfolio, built to showcase my content and projects, made with Astro, and deployed with GitHub Actions to GitHub Pages.
 
 <details>
-    <summary>Screenshot of the website</summary>
-    <img src="SCREENSHOT.png">
+    <summary>Screenshots of the website</summary>
+    <img src="SCREENSHOT-DARK-MODE.png">
+    <img src="SCREENSHOT-LIGHT-MODE.png">
 </details>
 
 ## 📋 Requirements
 
 ### 🤖 Production
 
-- [Node.js (^18.16.0)](https://nodejs.org/)
-- [astro (^2.2.2)](https://astro.build/)
+- [Node.js (^18.17.1)](https://nodejs.org/)
+- [Astro (^3.0.12)](https://astro.build/)
 
 ### 🧰 Development
 
-- [@typescript-eslint/parser (^5.59.1)](https://www.npmjs.com/package/@typescript-eslint/parser)
-- [eslint (^8.39.0)](https://eslint.org/)
-- [eslint-plugin-astro (^0.26.1)](https://www.npmjs.com/package/eslint-plugin-astro)
-- [prettier (^2.8.8)](https://prettier.io/)
-- [prettier-plugin-astro (^0.8.0)](https://www.npmjs.com/package/prettier-plugin-astro)
-- [typescript ^5.0.4](https://www.typescriptlang.org/)
+- [ESLint (^8.39.0)](https://eslint.org/)
+- [Prettier (^3.0.3)](https://prettier.io/)
+- [TypeScript ^5.0.4](https://www.typescriptlang.org/)
 
 ## 🔎 Usage
 

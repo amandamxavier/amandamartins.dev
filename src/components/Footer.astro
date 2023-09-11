@@ -3,16 +3,24 @@ import Social from "../components/Social.astro";
 ---
 
 <footer>
-  <p>Made with Astro 🚀 by Amanda Martins Xavier</p>
   <Social />
+  <a href="https://astro.build/" target="_blank">Made with Astro 🚀</a>
 </footer>
 
 <style>
   footer {
     text-align: center;
-    margin: 0 0 3rem 0;
+    padding: 1rem;
+    margin-top: auto;
   }
-  footer p {
-    color: #f8f8f2;
+  footer a {
+    color: var(--secondary);
+    font-weight: bold;
+    text-decoration: none;
+  }
+  footer a:hover {
+    color: var(--accent);
+    padding: 0.5rem;
+    border-bottom: 2px dashed var(--accent);
   }
 </style>

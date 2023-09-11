@@ -1,0 +1,19 @@
+---
+import Card from "../components/Card.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import Layout from "../layouts/Layout.astro";
+
+import { getArticles } from "../lib/articles.js";
+
+const articles = await getArticles();
+---
+
+<Layout title="Amanda Martins Xavier - Articles">
+  <Header />
+  <section>
+    <h3>Articles:</h3>
+    <Card data={articles} />
+  </section>
+  <Footer />
+</Layout>

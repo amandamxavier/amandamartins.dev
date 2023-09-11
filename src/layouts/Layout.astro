@@ -6,16 +6,21 @@ export interface Props {
 const { title } = Astro.props;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/d98da4d885.js"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
@@ -25,16 +30,41 @@ const { title } = Astro.props;
 </html>
 <style is:global>
   :root {
-    --accent: 124, 58, 237;
-    --accent-gradient: linear-gradient(
-      45deg,
-      rgb(var(--accent)),
-      #d6bef7 30%,
-      #44475a 60%
-    );
+    --accent: #ffba08;
+    --primary: #e5e5e5;
+    --secondary: #000000;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --accent: #ffba08;
+      --primary: #000000;
+      --secondary: #e5e5e5;
+    }
   }
   html {
     font-family: system-ui, sans-serif;
-    background-color: #282a36;
+    background-color: var(--primary);
+    color: var(--secondary);
+    line-height: 1.5;
+  }
+  body {
+    margin: auto;
+    padding: 1.5rem;
+    max-width: 80ch;
+  }
+  section {
+    margin: 3rem 0;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-size: 1.5rem;
+    font-family: "Fraunces", serif;
+  }
+  h1 {
+  }
+  a {
+    color: var(--secondary);
   }
 </style>
