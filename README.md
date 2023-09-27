@@ -1,65 +1,42 @@
-# Website ✨
+<h1 align="center">✨ amandamartins.dev ✨</h1>
 
-> ❓ My professional portfolio, built to showcase my content and projects, made with Astro, and deployed with GitHub Actions to GitHub Pages.
+<p align="center">This is my professional portfolio made with <a href="https://svelte.dev" target="_blank">Svelte</a>, and hosted on <a href="https://vercel.com" target="_blank">Vercel</a>.</p>
 
-<details>
-    <summary>Screenshots of the website</summary>
-    <img src="SCREENSHOT-DARK-MODE.png">
-    <img src="SCREENSHOT-LIGHT-MODE.png">
-</details>
+<img src="SCREENSHOT.png">
 
-## 📋 Requirements
-
-### 🤖 Production
-
-- [Node.js (^18.17.1)](https://nodejs.org/)
-- [Astro (^3.0.12)](https://astro.build/)
-
-### 🧰 Development
-
-- [ESLint (^8.39.0)](https://eslint.org/)
-- [Prettier (^3.0.3)](https://prettier.io/)
-- [TypeScript ^5.0.4](https://www.typescriptlang.org/)
-
-## 🔎 Usage
+## Usage 🔎
 
 - Clone the repository, with the command below:
 
 ```console
-git clone https://github.com/AmandaMartinsDev/website.git
+git clone https://github.com/pixelmandy/amandamartins.dev.git
 ```
 
-- Install the dependencies, with the command below:
+- Install the dependencies:
 
 ```console
 npm install
 ```
 
-- Run the project, with the command below:
+- Run the project:
 
 ```console
 npm run dev
 ```
 
-_⚠️ Finishing the work on the project, don't forget to run the lint and format scripts, with the command below:_
+- ⚠️ Don't forget to run ESLint and Prettier before commiting:
 
 ```console
 npm run lint
 ```
 
-## 🚀 Deploy
-
-The deploy is made automatically with GitHub Actions, to GitHub Pages, when a new commit is pushed to the `main` branch.
-
-You can check the workflow [here](.github/workflows/deploy.yml).
+```console
+npm run format
+```
 
 ## 📋 Issues
 
 Feel free to open an issue if you find a bug or have a suggestion, so we can discuss the best way to improve or fix it.
-
-## 👋 Contributing
-
-You're always welcome to contribute to this project, just create your pull request, and wait for the review.
 
 ## 📜 License
 
