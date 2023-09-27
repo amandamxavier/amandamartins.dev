@@ -1,2 +1,26 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import '../assets/sass/global.sass';
+	import {
+		About,
+		Content,
+		Contact,
+		Footer,
+		Hero,
+		Metadata,
+		Navbar,
+		Projects,
+		Skills,
+		Volunteering
+	} from '$lib/components';
+</script>
+
+<Metadata />
+<Navbar />
+<Hero />
+<Projects />
+<About />
+<Skills />
+<Volunteering />
+<Content />
+<Contact />
+<Footer />
