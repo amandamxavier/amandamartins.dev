@@ -1,84 +1,54 @@
 <footer>
 	<ul>
 		<li>
-			<a
-				href="http://linkedin.com/in/pixelmandy"
-				class="fa-brands fa-linkedin-in"
-				target="_blank"
-				rel="noopener noreferrer"
-			/>
+			<a href="http://linkedin.com/in/pixelmandy" target="_blank" rel="noopener noreferrer">
+				<i class="fa-brands fa-linkedin-in" />
+			</a>
 		</li>
 		<li>
-			<a
-				href="https://github.com/pixelmandy"
-				class="fa-brands fa-github"
-				target="_blank"
-				rel="noopener noreferrer"
-			/>
+			<a href="https://github.com/pixelmandy" target="_blank" rel="noopener noreferrer">
+				<i class="fa-brands fa-github" />
+			</a>
 		</li>
 		<li>
-			<a
-				href="https://pixelmandy.itch.io"
-				class="fa-brands fa-itch-io"
-				target="_blank"
-				rel="noopener noreferrer"
-			/>
+			<a href="https://pixelmandy.itch.io" target="_blank" rel="noopener noreferrer">
+				<i class="fa-brands fa-itch-io" />
+			</a>
 		</li>
 		<li>
-			<a
-				href="http://instagram.com/pixelmandy_"
-				class="fa-brands fa-instagram"
-				target="_blank"
-				rel="noopener noreferrer"
-			/>
+			<a href="http://instagram.com/pixelmandy_" target="_blank" rel="noopener noreferrer">
+				<i class="fa-brands fa-instagram" />
+			</a>
 		</li>
 		<li>
-			<a
-				href="http://instagram.com/@pixelmandy"
-				class="fa-brands fa-tiktok"
-				target="_blank"
-				rel="noopener noreferrer"
-			/>
+			<a href="http://tiktok.com/@pixelmandy" target="_blank" rel="noopener noreferrer">
+				<i class="fa-brands fa-tiktok" />
+			</a>
 		</li>
 		<li>
-			<a
-				href="http://bolha.us/@amandamartins.dev"
-				class="fa-brands fa-mastodon"
-				target="_blank"
-				rel="me noopener noreferrer"
-			/>
+			<a href="http://bolha.us/@amandamartins.dev" target="_blank" rel="me noopener noreferrer">
+				<i class="fa-brands fa-mastodon" />
+			</a>
 		</li>
 		<li>
-			<a
-				href="https://dev.to/pixelmandy"
-				class="fa-brands fa-dev"
-				target="_blank"
-				rel="noopener noreferrer"
-			/>
+			<a href="https://dev.to/pixelmandy" target="_blank" rel="noopener noreferrer">
+				<i class="fa-brands fa-dev" />
+			</a>
 		</li>
 		<li>
-			<a
-				href="http://twitch.tv/pixelmandy"
-				class="fa-brands fa-twitch"
-				target="_blank"
-				rel="noopener noreferrer"
-			/>
+			<a href="http://twitch.tv/pixelmandy" target="_blank" rel="noopener noreferrer">
+				<i class="fa-brands fa-twitch" />
+			</a>
 		</li>
 		<li>
-			<a
-				href="http://youtube.com/@pixelmandy"
-				class="fa-brands fa-youtube"
-				target="_blank"
-				rel="noopener noreferrer"
-			/>
+			<a href="http://youtube.com/@pixelmandy" target="_blank" rel="noopener noreferrer">
+				<i class="fa-brands fa-youtube" />
+			</a>
 		</li>
 		<li>
-			<a
-				href="https://discord.com/invite/TgGAXqH6Zf"
-				class="fa-brands fa-discord"
-				target="_blank"
-				rel="noopener noreferrer"
-			/>
+			<a href="https://discord.com/invite/TgGAXqH6Zf" target="_blank" rel="noopener noreferrer">
+				<i class="fa-brands fa-discord" />
+			</a>
 		</li>
 	</ul>
 	<section>
@@ -88,9 +58,6 @@
 </footer>
 
 <style lang="sass">
-  footer
-    margin: 0 20rem
-
   section
     display: flex
     justify-content: space-between

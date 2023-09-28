@@ -7,7 +7,7 @@
 
 	const baseDomain = 'amandamartins.dev';
 	const baseURL = 'https://amandamartins.dev';
-	$: pageTitle = !!title
+	$: pageTitle = title.length
 		? `${title} » Amanda Martins - Developer and Content Creator`
 		: 'Amanda Martins - Developer and Content Creator';
 </script>

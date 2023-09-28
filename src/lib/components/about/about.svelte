@@ -33,7 +33,7 @@
 	<figure>
 		<img
 			src="/img/profile-picture.jpg"
-			alt="Rounded photo of Amanda looking to the side with her hand on her chin thoughtfully, with white skin, curly black hair, round gold glasses, and a white t-shirt."
+			alt="Amanda looking to the side with her hand on her chin thoughtfully, with white skin, curly black hair, round gold glasses, and a white t-shirt."
 		/>
 	</figure>
 </main>
