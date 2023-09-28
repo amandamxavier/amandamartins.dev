@@ -35,7 +35,7 @@
     margin: auto
     overflow: hidden
     position: relative
-    width: 100vw
+    width: 100%
     margin-bottom: 1rem
 
     ul

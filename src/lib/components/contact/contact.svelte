@@ -26,26 +26,23 @@
 </main>
 
 <style lang="sass">
-  main
-    margin: 5rem 20rem
+section
+	display: flex
+	flex-direction: column
+	align-items: center
+	background-color: var(--gray)
+	border-radius: 50px
+	padding: 3rem
+	text-align: center
 
-  section
-    display: flex
-    flex-direction: column
-    align-items: center
-    background-color: var(--gray)
-    border-radius: 50px
-    padding: 3rem
+	ul
+		display: flex
 
-    ul
-      display: flex
+@media only screen and (max-width: 768px)
+	main
+		margin: 1rem
+		flex-direction: column
 
-  @media only screen and (max-width: 768px)
-    main
-      margin: 1rem
-      flex-direction: column
-
-    section
-      padding: 0.8rem
-      text-align: center
+	section
+		padding: 0.8rem
 </style>

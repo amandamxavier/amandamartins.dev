@@ -2,15 +2,15 @@
 	import { ProjectsSliders } from '$lib/components';
 </script>
 
-<main id="projects">
+<section id="projects">
 	<ProjectsSliders />
 	<a href="http://github.com/pixelmandy" target="_blank" rel="noopener noreferrer"
 		>Check more projects on my GitHub...</a
 	>
-</main>
+</section>
 
 <style lang="sass">
-  main
+  section
     display: flex
     flex-direction: column
     align-items: center
