@@ -1,12 +1,12 @@
 <footer>
 	<ul>
 		<li>
-			<a href="http://linkedin.com/in/pixelmandy" target="_blank" rel="noopener noreferrer">
+			<a href="http://linkedin.com/in/amandamxavier" target="_blank" rel="noopener noreferrer">
 				<i class="fa-brands fa-linkedin-in" />
 			</a>
 		</li>
 		<li>
-			<a href="https://github.com/pixelmandy" target="_blank" rel="noopener noreferrer">
+			<a href="https://github.com/amandamxavier" target="_blank" rel="noopener noreferrer">
 				<i class="fa-brands fa-github" />
 			</a>
 		</li>
@@ -16,38 +16,13 @@
 			</a>
 		</li>
 		<li>
-			<a href="http://instagram.com/pixelmandy_" target="_blank" rel="noopener noreferrer">
-				<i class="fa-brands fa-instagram" />
+			<a href="https://medium.com/@amandamxavier" target="_blank" rel="noopener noreferrer">
+				<i class="fa-brands fa-medium" />
 			</a>
 		</li>
 		<li>
-			<a href="http://tiktok.com/@pixelmandy" target="_blank" rel="noopener noreferrer">
-				<i class="fa-brands fa-tiktok" />
-			</a>
-		</li>
-		<li>
-			<a href="http://bolha.us/@amandamartins.dev" target="_blank" rel="me noopener noreferrer">
-				<i class="fa-brands fa-mastodon" />
-			</a>
-		</li>
-		<li>
-			<a href="https://dev.to/pixelmandy" target="_blank" rel="noopener noreferrer">
+			<a href="https://dev.to/amandamxavier" target="_blank" rel="noopener noreferrer">
 				<i class="fa-brands fa-dev" />
-			</a>
-		</li>
-		<li>
-			<a href="http://twitch.tv/pixelmandy" target="_blank" rel="noopener noreferrer">
-				<i class="fa-brands fa-twitch" />
-			</a>
-		</li>
-		<li>
-			<a href="http://youtube.com/@pixelmandy" target="_blank" rel="noopener noreferrer">
-				<i class="fa-brands fa-youtube" />
-			</a>
-		</li>
-		<li>
-			<a href="https://discord.com/invite/TgGAXqH6Zf" target="_blank" rel="noopener noreferrer">
-				<i class="fa-brands fa-discord" />
 			</a>
 		</li>
 	</ul>

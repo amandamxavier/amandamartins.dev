@@ -1,7 +1,7 @@
 import { nanoid } from 'nanoid';
 
 export const getRepos = async () => {
-	const response = await fetch('https://api.github.com/users/pixelmandy/repos');
+	const response = await fetch('https://api.github.com/users/amandamxavier/repos');
 	const repos = await response.json();
 
 	return repos.map((item) => ({

@@ -17,16 +17,16 @@
 		</p>
 		<ul>
 			<li>
-				<SecondaryButton url="https://linkedin.com/in/pixelmandy" icon="fa-brands fa-linkedin-in" />
+				<SecondaryButton url="https://linkedin.com/in/amandamxavier" icon="fa-brands fa-linkedin-in" />
 			</li>
 			<li>
-				<SecondaryButton url="https://github.com/pixelmandy" icon="fa-brands fa-github" />
+				<SecondaryButton url="https://github.com/amandamxavier" icon="fa-brands fa-github" />
 			</li>
 			<li>
 				<SecondaryButton url="https://pixelmandy.itch.io" icon="fa-brands fa-itch-io" />
 			</li>
 			<li>
-				<SecondaryButton url="https://dev.to/pixelmandy" icon="fa-brands fa-dev" />
+				<SecondaryButton url="https://dev.to/amandamxavier" icon="fa-brands fa-dev" />
 			</li>
 		</ul>
 	</section>

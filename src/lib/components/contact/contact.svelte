@@ -19,7 +19,7 @@
 				/>
 			</li>
 			<li>
-				<SecondaryButton url="https://linkedin.com/in/pixelmandy" icon="fa-brands fa-linkedin-in" />
+				<SecondaryButton url="https://linkedin.com/in/amandamxavier" icon="fa-brands fa-linkedin-in" />
 			</li>
 		</ul>
 	</section>
