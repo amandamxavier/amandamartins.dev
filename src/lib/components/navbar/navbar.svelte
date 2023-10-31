@@ -6,6 +6,7 @@
 	<a href="/">Home</a>
 	<a href="/#projects">Projects</a>
 	<a href="/#about">About me</a>
+  <a href="/#skills">Skills</a>
 	<a href="/#volunteering">Volunteering</a>
 	<a href="/#content">Content Creation</a>
 	<PrimaryButton url="/#contact" title="Contact" />
