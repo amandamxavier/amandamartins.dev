@@ -4,7 +4,7 @@
 
 <section id="projects">
 	<ProjectsSliders />
-	<a href="http://github.com/pixelmandy" target="_blank" rel="noopener noreferrer"
+	<a href="http://github.com/amandamxavier" target="_blank" rel="noopener noreferrer"
 		>Check more projects on my GitHub...</a
 	>
 </section>
