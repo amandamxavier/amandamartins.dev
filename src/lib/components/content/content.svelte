@@ -9,7 +9,7 @@
 		<p>
 			I love to be creative, and I’m always working on some of my ideas and projects, such as
 			writing for <strong>DEV Community</strong> and <strong>Medium</strong>, and sharing 
-			joruney through my <strong>LinkedIn</strong>.
+			journey through my <strong>LinkedIn</strong>.
 		</p>
 		<ul>
 			<li>
@@ -29,37 +29,37 @@
 </main>
 
 <style lang="sass">
-  main
-    display: flex
-    justify-content: flex-start
-    align-items: center
-    gap: 250px
-
-  section
-    flex: 1
-    display: flex
-    flex-direction: column
-    align-items: flex-start
-
-	ul
-      display: flex
-      flex-wrap: wrap
-
-  figure img
-    width: 380px
-    border-radius: 100%
-
-  @media only screen and (max-width: 768px)
     main
-      flex-direction: column-reverse
-      gap: 10px
-
-    section
+      display: flex
+      justify-content: flex-start
       align-items: center
+      gap: 250px
+  
+    section
+      flex: 1
+      display: flex
+      flex-direction: column
+      align-items: flex-start
 
-	ul
-      justify-content: center
+      ul
+        display: flex
+        flex-wrap: wrap
 
     figure img
-      width: 240px
-</style>
+      width: 380px
+      border-radius: 100%
+
+    @media only screen and (max-width: 768px)
+      main
+        flex-direction: column-reverse
+        gap: 10px
+
+      section
+        align-items: center
+
+      ul
+        justify-content: center
+
+      figure img
+        width: 240px
+  </style>
