@@ -41,6 +41,10 @@
     flex-direction: column
     align-items: flex-start
 
+	ul
+      display: flex
+      flex-wrap: wrap
+
   figure img
     width: 380px
     border-radius: 100%
@@ -52,6 +56,9 @@
 
     section
       align-items: center
+
+	ul
+      justify-content: center
 
     figure img
       width: 240px
