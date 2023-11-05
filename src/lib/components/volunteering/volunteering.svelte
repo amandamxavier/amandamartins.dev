@@ -11,8 +11,8 @@
 		<h3>What I Participate</h3>
 		<p>
 			I was a coordinator of <strong>Feministech</strong>, a community that supports women,
-			transgender and non-binary people in tech. I contributed mostly to open-source projects of the
-			community, writing for the dev.to's organization and some of the community managing tasks, such
+			transgender and non-binary people in tech. I contributed mostly to open-source projects,
+      writing for the dev.to's organization and some of the community managing tasks, such
       as defining the next steps for the Discord server and events.
 		</p>
 		<ul>
