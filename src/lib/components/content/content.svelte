@@ -1,5 +1,5 @@
 <script>
-	import { PrimaryButton } from '$lib/components';
+	import { SecondaryButton } from '$lib/components';
 </script>
 
 <main id="content">
