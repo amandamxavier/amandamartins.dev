@@ -8,19 +8,15 @@
 		<h3>What I Create</h3>
 		<p>
 			I love to be creative, and I’m always working on some of my ideas and projects, such as
-			writing for <strong>dev.to</strong>, sharing knowledge through my
-			<strong>Instagram</strong> page, vlogging on my <strong>YouTube</strong>
-			channel, or live coding and gaming on my <strong>Twitch</strong> channel.
-		</p>
-		<p>
-			In addition, I’m a game developer who is passionate about creating immersive and engaging
-			experiences for players. I’m currently sharing my journey and knowledge on <strong
-				>@PixelMandy</strong
-			>.
+			writing for <strong>DEV Community</strong> and <strong>Medium</strong>, and sharing 
+			joruney through my <strong>LinkedIn</strong>.
 		</p>
 		<ul>
 			<li>
-				<PrimaryButton url="https://pixelmandy.live" icon="fa-solid fa-link" title="@PixelMandy" />
+				<SecondaryButton url="https://dev.to/amandamxavier" icon="fa-brands fa-dev" />
+			</li>
+			<li>
+				<SecondaryButton url="https://medium.com/@amandamxavier" icon="fa-brands fa-medium" />
 			</li>
 		</ul>
 	</section>

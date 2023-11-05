@@ -22,12 +22,6 @@
 			<li>
 				<SecondaryButton url="https://github.com/amandamxavier" icon="fa-brands fa-github" />
 			</li>
-			<li>
-				<SecondaryButton url="https://pixelmandy.itch.io" icon="fa-brands fa-itch-io" />
-			</li>
-			<li>
-				<SecondaryButton url="https://dev.to/amandamxavier" icon="fa-brands fa-dev" />
-			</li>
 		</ul>
 	</section>
 	<figure>
