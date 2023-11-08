@@ -36,6 +36,7 @@
 		"vite": "^4.4.2"
 	},
 	"dependencies": {
+		"@vercel/analytics": "^1.1.1",
 		"nanoid": "^5.0.1"
 	},
 	"type": "module"
