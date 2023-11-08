@@ -9,19 +9,18 @@
 			<h4 class="marker-yellow">Front-End</h4>
 			<p>
 				I've professional experience with <strong>Angular</strong>, but worked on various projects
-				with diverse frameworks, such as
-				<strong>Svelte</strong>, <strong>React</strong>, and
-				<strong>Vue</strong>.
+				with diverse frameworks, such as <strong>Svelte</strong>, <strong>React</strong>,
+				<strong>Next</strong>
+				and <strong>Vue</strong>.
 			</p>
 		</li>
 		<li>
 			<i class="fa-solid fa-gear" />
 			<h4 class="marker-red">Back-End</h4>
 			<p>
-				Worked mostly developing <strong>REST APIs</strong> with
-				<strong>Spring</strong>, and <strong>.NET</strong>, studying
-				<strong>NodeJS</strong>
-				with <strong>Nest</strong>, and <strong>Fastify</strong>, and developed some projects using
+				Worked mostly developing <strong>RESTful APIs</strong> with
+				<strong>Spring</strong>, and <strong>.NET</strong>. Currently studying
+				<strong>NodeJS</strong>, <strong>Fastify</strong>, and developed some projects using
 				<strong>Python</strong>.
 			</p>
 		</li>
@@ -40,8 +39,8 @@
 			<i class="fa-solid fa-mug-hot" />
 			<h4 class="marker-orange">Consulting</h4>
 			<p>
-				Beyond all of the technical skills, I've worked as a consultant for <strong>IBM</strong>,
-				and as a Customer Success and Customer Support for
+				I've also worked as a consultant for <strong>IBM</strong>, and as a Customer Success and
+				Customer Support for
 				<strong>Linte</strong>, a law-tech Brazilian startup.
 			</p>
 		</li>
@@ -64,7 +63,7 @@
 
     ul
       display: flex
-      gap: 50px
+      gap: 40px
       text-align: left
 
       li

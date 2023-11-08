@@ -8,8 +8,8 @@
 		<h3>What I Create</h3>
 		<p>
 			I love to be creative, and I’m always working on some of my ideas and projects, such as
-			writing for <strong>DEV Community</strong> and <strong>Medium</strong>, and sharing 
-			journey through my <strong>LinkedIn</strong>.
+			writing for <strong>DEV Community</strong> and <strong>Medium</strong>, and sharing my journey
+			through my <strong>LinkedIn</strong>.
 		</p>
 		<ul>
 			<li>
@@ -62,4 +62,4 @@
 
       figure img
         width: 240px
-  </style>
+</style>

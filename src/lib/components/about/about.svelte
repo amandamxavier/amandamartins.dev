@@ -7,17 +7,24 @@
 		<p class="badge">About me</p>
 		<h3>Let me introduce myself...</h3>
 		<p>
-			I have experience developing cloud-native applications, working with relational databases,
-			applying object-oriented and functional programming paradigms, and familiarity with
-			infrastructure and DevOps Culture.
+			I ave experience developing <strong>full-stack cloud-native applications</strong>, managing
+			<strong>infrastructure</strong>
+			and <strong>DevOps pipelines</strong>, working with <strong>relational</strong> and
+			<strong>non-relational databases</strong>, and applying <strong>functional</strong> and
+			<strong>object-oriented</strong> programming paradigms.
 		</p>
 		<p>
-			Currently studying and improving skills, such as design patterns, clean code, and test-driven
-			development to ensure quality and reliability.
+			Also, learning more about <strong>test-driven development</strong>,
+			<strong>design patterns</strong>, and <strong>software architecture</strong> to ensure
+			<strong>quality</strong>
+			and <strong>reliability</strong>.
 		</p>
 		<ul>
 			<li>
-				<SecondaryButton url="https://linkedin.com/in/amandamxavier" icon="fa-brands fa-linkedin-in" />
+				<SecondaryButton
+					url="https://linkedin.com/in/amandamxavier"
+					icon="fa-brands fa-linkedin-in"
+				/>
 			</li>
 			<li>
 				<SecondaryButton url="https://github.com/amandamxavier" icon="fa-brands fa-github" />

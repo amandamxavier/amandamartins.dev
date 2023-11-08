@@ -10,10 +10,11 @@
 		<p class="badge">Volunteering</p>
 		<h3>What I Participate</h3>
 		<p>
-			I was a coordinator of <strong>Feministech</strong>, a community that supports women,
-			transgender and non-binary people in tech. I contributed mostly to open-source projects,
-      writing for the dev.to's organization and some of the community managing tasks, such
-      as defining the next steps for the Discord server and events.
+			I was a coordinator of <strong>Feministech</strong> and current member, a community that
+			supports women, transgender and non-binary people in tech. I contributed mostly to
+			<strong>open-source projects</strong>, writing for the
+			<strong>DEV Community organization</strong>, and some of the
+			<strong>community managing tasks</strong>.
 		</p>
 		<ul>
 			<li>

@@ -4,7 +4,7 @@
 
 <section>
 	<h1>Hello, my name is Amanda, nice to meet you.</h1>
-	<h2>I'm a self-taught curiosity-driven developer, currently based in Brazil.</h2>
+	<h2>I'm a self-taught curiosity-driven fullstack developer, based in Brazil.</h2>
 	<PrimaryButton url="#about" title="Get to know me" />
 </section>
 
