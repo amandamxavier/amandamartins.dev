@@ -6,7 +6,7 @@ import photos from "../_data/polaroid-photos.json";
 
 let total = 4;
 
-if (window.screen.width <= 480) {
+if (typeof window !== "undefined" && window.screen.width <= 480) {
   total = 1;
 }
 
