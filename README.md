@@ -3,9 +3,9 @@
 <p align="center">This is my professional portfolio made with <a href="https://nextjs.org" target="_blank">Next.js</a>, and hosted on <a href="https://vercel.com" target="_blank">Vercel</a>.</p>
 
 <p align="center">
-  <a href="https://amandamartins.dev>" target="_blank">Production</a>
+  <a href="https://amandamartins.dev" target="_blank">Production</a>
    • 
-  <a href="https://amandamartins.dev>" target="_blank">Preview</a>
+  <a href="https://preview.amandamartins.dev" target="_blank">Preview</a>
 </p>
 
 <p align="center">
