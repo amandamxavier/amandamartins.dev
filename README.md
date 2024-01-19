@@ -2,7 +2,29 @@
 
 <p align="center">This is my professional portfolio made with <a href="https://nextjs.org" target="_blank">Next.js</a>, and hosted on <a href="https://vercel.com" target="_blank">Vercel</a>.</p>
 
+<p align="center">
+  <a href="https://amandamartins.dev>" target="_blank">Production</a>
+   • 
+  <a href="https://amandamartins.dev>" target="_blank">Preview</a>
+
 <img src="SCREENSHOT.png">
+
+## Features 🎉
+
+- SEO 🚧
+- Blog 🚧
+- Dark mode 🚧
+- Responsive design 🚧
+- Custom error pages 🚧
+- Unit tests with Jest 🚧
+- E2E tests with Playwright 🚧
+- Linting with ESLint and Prettier ✅
+
+### Pages 📖
+
+- Home page ✅
+- Gear page 🚧
+- About me page 🚧
 
 ## Usage 🔎
 
