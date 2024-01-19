@@ -1,0 +1,28 @@
+.link {
+  display: grid;
+  grid-template-columns: 0.5fr repeat(2, 1fr) 5fr;
+  grid-template-rows: auto 0.15fr;
+  align-items: center;
+  text-decoration: none;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.divider {
+  background-color: var(--color-quaternary);
+  height: 1px;
+  margin: 1rem 0;
+}
+
+@media (max-width: 1200px) {
+  .link {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+}
