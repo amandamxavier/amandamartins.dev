@@ -1,0 +1,10 @@
+.ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ul * {
+  color: var(--color-primary);
+}

@@ -1,0 +1,69 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+header,
+main,
+footer {
+  padding: 4rem 16rem;
+}
+
+section {
+  margin: 4rem 16rem;
+}
+
+h1 {
+  font-family: var(--font-source);
+  font-size: 2rem;
+  margin-bottom: 1.6rem;
+}
+
+h2 {
+  font-family: var(--font-source);
+}
+
+h3 {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  color: var(--color-tertiary);
+}
+
+p {
+  line-height: 1.6;
+}
+
+a {
+  color: var(--color-secondary);
+  transition: 0.3s;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 480px) {
+  header,
+  main,
+  footer {
+    padding: 2rem 1rem;
+  }
+  section {
+    margin: 2rem 1rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  header,
+  main,
+  footer {
+    padding: 4rem 2rem;
+  }
+  section {
+    margin: 4rem 2rem;
+  }
+}

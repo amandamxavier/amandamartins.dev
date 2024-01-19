@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "url": "https://linkedin.com/in/amandamxavier",
+    "icon": "linkedin"
+  },
+  {
+    "id": 1,
+    "url": "https://github.com/amandamxavier",
+    "icon": "github"
+  },
+  {
+    "id": 2,
+    "url": "https://dribbble.com/amandamxavier",
+    "icon": "dribbble"
+  },
+  {
+    "id": 3,
+    "url": "http://www.behance.net/amandamxavier",
+    "icon": "behance"
+  }
+]
