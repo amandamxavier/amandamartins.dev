@@ -6,8 +6,11 @@
   <a href="https://amandamartins.dev>" target="_blank">Production</a>
    • 
   <a href="https://amandamartins.dev>" target="_blank">Preview</a>
+</p>
 
-<img src="SCREENSHOT.png">
+<p align="center">
+  <img src="SCREENSHOT.png">
+</p>
 
 ## Features 🎉
 
