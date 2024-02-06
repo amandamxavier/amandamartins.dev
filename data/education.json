@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "logo": "/assets/images/logos/scrimba.webp",
+    "alt": "Scrimba logo",
+    "dates": "In progress...",
+    "type": "Certificate",
+    "title": "Frontend Developer Career Path",
+    "link": "http://www.scrimba.com"
+  },
+  {
+    "id": 1,
+    "logo": "/assets/images/logos/senac.webp",
+    "alt": "Senac University Center logo",
+    "dates": "2021 - 2023",
+    "type": "Two and a half years degree",
+    "title": "Systems Analysis and Development",
+    "link": "http://ead.senac.com"
+  }
+]

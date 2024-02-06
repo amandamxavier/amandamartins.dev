@@ -7,14 +7,7 @@ export default function manifest(): MetadataRoute.Manifest {
     description: "Fullstack Developer, based in São Paulo, Brazil.",
     start_url: "/",
     display: "standalone",
-    background_color: "#000000",
-    theme_color: "#000000",
-    icons: [
-      {
-        src: "/apple-icon.png",
-        sizes: "180x180",
-        type: "image/png",
-      },
-    ],
+    background_color: "#e09f3e",
+    theme_color: "#e09f3e"
   };
 }

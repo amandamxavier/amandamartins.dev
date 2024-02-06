@@ -1,0 +1,8 @@
+:root {
+  --color-primary: #ffffff;
+  --color-secondary: #000000;
+  --color-tertiary: #808080;
+  --color-quaternary: #d3d3d3;
+  --color-accent: #ae6300;
+  --color-transparent: rgb(128, 128, 128, 0.2);
+}

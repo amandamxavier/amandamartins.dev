@@ -1,0 +1,30 @@
+.ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.ul *,
+.ul *:hover {
+  text-decoration: none;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 2rem;
+  font-weight: 600;
+}
+
+.link:hover {
+  background-color: var(--color-transparent);
+}
+
+@media only screen and (max-width: 480px) {
+  .ul {
+    display: none;
+  }
+}

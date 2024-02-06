@@ -1,0 +1,14 @@
+.ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.li {
+  transition: 0.2s;
+}
+
+.li:hover {
+  transform: translate(0, -2px);
+}

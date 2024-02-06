@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.4rem;
+  border: 1px solid var(--color-tertiary);
+  font-size: 0.6rem;
+  font-weight: bold;
+  transition: 0.6s;
+}
+
+.item p {
+  margin-bottom: 0;
+}

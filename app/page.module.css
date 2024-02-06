@@ -1,3 +1,29 @@
+.contact {
+  background-image: url("/assets/images/background/contact.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding: 18rem 12rem 2rem 12rem;
+  box-shadow: inset 0px -200px 80px -60px rgba(0, 0, 0, 0.6);
+  border-radius: 0.6rem;
+}
+
+.contact * {
+  color: var(--color-primary);
+}
+
+@media only screen and (max-width: 480px) {
+  .contact {
+    padding: 8rem 2rem 1rem 2rem;
+  }
+}
+
 @media only screen and (min-width: 481px) {
   .introduction {
     padding: 0 6rem;
