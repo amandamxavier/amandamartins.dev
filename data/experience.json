@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "logo": "/assets/images/logos/ibm.webp",
+    "alt": "IBM logo",
+    "dates": "2022 - 2023",
+    "type": "Full-time",
+    "title": "Associate Application Developer",
+    "link": "http://www.ibm.com"
+  },
+  {
+    "id": 1,
+    "logo": "/assets/images/logos/ibm.webp",
+    "alt": "IBM logo",
+    "dates": "2021 - 2022",
+    "type": "Intern",
+    "title": "Associate Application Developer",
+    "link": "http://www.ibm.com"
+  }
+]

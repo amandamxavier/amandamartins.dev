@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "logo": "/assets/images/logos/feministech.webp",
+    "alt": "Feministech logo",
+    "dates": "Aug, 2023 - Nov, 2023",
+    "title": "Community Manager",
+    "link": "https://feministech.com.br"
+  },
+  {
+    "id": 1,
+    "logo": "/assets/images/logos/programaria.webp",
+    "alt": "PrograMaria logo",
+    "dates": "Aug, 2021",
+    "title": "Technical Support",
+    "link": "https://programaria.org"
+  },
+  {
+    "id": 2,
+    "logo": "/assets/images/logos/programaria.webp",
+    "alt": "PrograMaria logo",
+    "dates": "May, 2021 - Jun, 2021",
+    "title": "Student Tutor",
+    "link": "https://programaria.org"
+  }
+]
