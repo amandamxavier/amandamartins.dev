@@ -1,6 +1,7 @@
-"use client"; // Error components must be Client Components
+"use client";
 
 import { useEffect } from "react";
+import Image from "next/image";
 
 export default function Error({
   error,
@@ -10,21 +11,19 @@ export default function Error({
   reset: () => void;
 }) {
   useEffect(() => {
-    // Log the error to an error reporting service
     console.error(error);
   }, [error]);
 
   return (
-    <div>
-      <h2>Something went wrong!</h2>
-      <button
-        onClick={
-          // Attempt to recover by trying to re-render the segment
-          () => reset()
-        }
-      >
-        Try again
-      </button>
-    </div>
+    <section className="center">
+      <Image
+        src="/assets/images/animated/fine.webp"
+        alt="This is fine meme"
+        width={480}
+        height={204}
+      />
+      <p>Oh no, something went wrong!</p>
+      <button onClick={() => reset()}>Try again</button>
+    </section>
   );
 }

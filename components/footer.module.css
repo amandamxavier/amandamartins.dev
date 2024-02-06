@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12rem;
+  background-color: var(--color-transparent);
+  border-radius: 0.6rem;
+  padding: 1.6rem;
+}
+
+.copyright {
+  font-size: 0.6rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

@@ -1,10 +1,15 @@
+import "@/styles/reset.css";
+import "@/styles/globals.css";
+import "@/styles/variables.css";
+
+import { Noto_Sans } from "next/font/google";
+
 import { Analytics } from "@vercel/analytics/react";
-import { Header, Footer } from "./_components";
+
+import { Footer, Header } from "@/components";
+
 import type { Metadata } from "next";
-import { montserrat, source } from "./fonts";
-import "./_styles/reset.css";
-import "./_styles/globals.css";
-import "./_styles/variables.css";
+const noto = Noto_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Amanda Martins - Fullstack Developer",
@@ -34,7 +39,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className} ${source.variable}`}>
+      <body className={noto.className}>
         <Header />
         {children}
         <Footer />
