@@ -17,8 +17,8 @@
 - SEO 🚧
 - Blog 🚧
 - Dark mode 🚧
-- Responsive design 🚧
-- Custom error pages 🚧
+- Responsive design ✅
+- Custom error pages ✅
 - Unit tests with Jest 🚧
 - E2E tests with Playwright 🚧
 - Linting with ESLint and Prettier ✅
@@ -26,8 +26,8 @@
 ### Pages 📖
 
 - Home page ✅
-- Gear page 🚧
-- About me page 🚧
+- Resume page ✅
+- About me page ✅
 
 ## Usage 🔎
 
@@ -40,23 +40,23 @@ git clone https://github.com/amandamxavier/amandamartins.dev.git
 - Install the dependencies:
 
 ```console
-npm install
+bun install
 ```
 
 - Run the project:
 
 ```console
-npm run dev
+bun run dev
 ```
 
 - ⚠️ Don't forget to run ESLint and Prettier before commit:
 
 ```console
-npm run lint
+bun run lint
 ```
 
 ```console
-npm run format
+bun run format
 ```
 
 ## 📋 Issues
