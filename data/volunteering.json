@@ -1,26 +1,32 @@
 [
   {
     "id": 0,
-    "logo": "/assets/images/logos/feministech.webp",
-    "alt": "Feministech logo",
-    "dates": "Aug, 2023 - Nov, 2023",
+    "img": {
+      "src": "/images/logos/feministech.webp",
+      "alt": "Feministech logo"
+    },
+    "href": "https://feministech.com.br",
     "title": "Community Manager",
-    "link": "https://feministech.com.br"
+    "details": "Aug, 2023 - Nov, 2023"
   },
   {
     "id": 1,
-    "logo": "/assets/images/logos/programaria.webp",
-    "alt": "PrograMaria logo",
-    "dates": "Aug, 2021",
+    "img": {
+      "src": "/images/logos/programaria.webp",
+      "alt": "PrograMaria logo"
+    },
+    "href": "https://programaria.org",
     "title": "Technical Support",
-    "link": "https://programaria.org"
+    "details": "Aug, 2021"
   },
   {
     "id": 2,
-    "logo": "/assets/images/logos/programaria.webp",
-    "alt": "PrograMaria logo",
-    "dates": "May, 2021 - Jun, 2021",
+    "img": {
+      "src": "/images/logos/programaria.webp",
+      "alt": "PrograMaria logo"
+    },
+    "href": "https://programaria.org",
     "title": "Student Tutor",
-    "link": "https://programaria.org"
+    "details": "May, 2021 - Jun, 2021"
   }
 ]

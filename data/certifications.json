@@ -1,18 +1,22 @@
 [
   {
     "id": 0,
-    "logo": "/assets/images/badges/clfc02.webp",
-    "alt": "AWS logo",
-    "dates": "Nov 30, 2022",
+    "img": {
+      "src": "/images/badges/clfc02.webp",
+      "alt": "AWS logo"
+    },
+    "href": "https://www.credly.com/badges/94c8a233-98a0-45d4-ae6a-5e7ddb0d60cb/public_url",
     "title": "AWS Certified: Cloud Practitioner",
-    "link": "https://www.credly.com/badges/94c8a233-98a0-45d4-ae6a-5e7ddb0d60cb/public_url"
+    "details": "Nov 30, 2022"
   },
   {
     "id": 1,
-    "logo": "/assets/images/badges/az900.webp",
-    "alt": "Microsoft Azure logo",
-    "dates": "Apr 13, 2022",
+    "img": {
+      "src": "/images/badges/az900.webp",
+      "alt": "Microsoft Azure logo"
+    },
+    "href": "https://www.credly.com/badges/e8d5f368-24a8-4eb3-b038-5c3c80705f29/public_url",
     "title": "Microsoft Certified: Azure Fundamentals",
-    "link": "https://www.credly.com/badges/e8d5f368-24a8-4eb3-b038-5c3c80705f29/public_url"
+    "details": "Apr 13, 2022"
   }
 ]

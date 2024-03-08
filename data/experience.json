@@ -1,20 +1,32 @@
 [
   {
     "id": 0,
-    "logo": "/assets/images/logos/ibm.webp",
-    "alt": "IBM logo",
-    "dates": "2022 - 2023",
-    "type": "Full-time",
-    "title": "Associate Application Developer",
-    "link": "http://www.ibm.com"
+    "img": {
+      "src": "/images/logos/revelo.webp",
+      "alt": "Revelo logo"
+    },
+    "href": "http://www.revelo.com.br",
+    "title": "Content Writer",
+    "details": "2023 - 2023 | Freelancer"
   },
   {
     "id": 1,
-    "logo": "/assets/images/logos/ibm.webp",
-    "alt": "IBM logo",
-    "dates": "2021 - 2022",
-    "type": "Intern",
+    "img": {
+      "src": "/images/logos/ibm.webp",
+      "alt": "IBM logo"
+    },
+    "href": "http://www.ibm.com",
     "title": "Associate Application Developer",
-    "link": "http://www.ibm.com"
+    "details": "2022 - 2023 | Full-time"
+  },
+  {
+    "id": 2,
+    "img": {
+      "src": "/images/logos/ibm.webp",
+      "alt": "IBM logo"
+    },
+    "href": "http://www.ibm.com",
+    "title": "Associate Application Developer",
+    "details": "2021 - 2022 | Intern"
   }
 ]
