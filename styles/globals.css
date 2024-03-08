@@ -3,84 +3,64 @@ html {
 }
 
 body {
-  margin: 0;
-  background-image: url("/background.svg");
-  background-position: center;
-  background-size: cover;
+  padding: 32px;
+  background-color: var(--bg-color);
+  min-height: 100dvh;
+  height: 100%;
+
+  @media (max-width: 960px) {
+    padding: 16px;
+  }
 }
 
-header {
-  padding: 2rem 16rem;
-}
-
+body,
 main {
-  padding: 4rem 16rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
 }
 
-section,
-footer {
-  margin: 4rem 16rem;
+footer,
+header,
+main {
+  max-width: 960px;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: 900;
-  margin-bottom: 1.6rem;
+footer,
+header,
+main,
+section {
+  width: 100%;
 }
 
-h2 {
-  font-size: 1.5rem;
-  font-weight: 900;
-  margin-bottom: 1.6rem;
+article {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-h3 {
-  font-size: 0.6rem;
-  text-transform: uppercase;
-  color: var(--color-tertiary);
+ul {
+  list-style-position: inside;
+
+  li::marker {
+    color: var(--secondary-color);
+  }
 }
 
-p {
-  margin-bottom: 1rem;
+button {
+  cursor: pointer;
 }
 
 a,
 button {
-  color: var(--color-secondary);
-  transition: 0.3s;
-}
-
-a:hover,
-button:hover {
-  opacity: 0.8;
-}
-
-.center {
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  gap: 1rem;
-}
+  gap: 4px;
+  transition: 0.3s;
 
-@media only screen and (max-width: 480px) {
-  header,
-  main {
-    padding: 2rem 1rem;
-  }
-  section,
-  footer {
-    margin: 2rem 1rem;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 1200px) {
-  header,
-  main {
-    padding: 4rem 2rem;
-  }
-  section,
-  footer {
-    margin: 4rem 2rem;
+  &:hover {
+    opacity: 0.8;
   }
 }

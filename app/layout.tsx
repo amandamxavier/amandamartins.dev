@@ -1,50 +1,40 @@
+import type { Metadata } from "next";
 import "@/styles/reset.css";
 import "@/styles/globals.css";
-import "@/styles/variables.css";
+import "@/styles/vars.css";
+import "@/styles/typography.css";
 
-import { Noto_Sans } from "next/font/google";
-
+import { Footer, Header, ThemeProvider } from "@/components";
 import { Analytics } from "@vercel/analytics/react";
 
-import { Footer, Header } from "@/components";
-
-import type { Metadata } from "next";
-const noto = Noto_Sans({ subsets: ["latin"] });
+import { inter, newsreader } from "../components/ui";
 
 export const metadata: Metadata = {
-  title: "Amanda Martins - Fullstack Developer",
-  description: "Fullstack Developer, based in São Paulo, Brazil.",
+  title: "Amanda Martins",
+  description: "Fullstack Developer, based in Brazil.",
   icons: {
-    icon: [
-      {
-        url: "/icon-light.png",
-        media: "(prefers-color-scheme: light)",
-        rel: "icon",
-        type: "image/png",
-      },
-      {
-        url: "/icon-dark.png",
-        media: "(prefers-color-scheme: dark)",
-        rel: "icon",
-        type: "image/png",
-      },
-    ],
+    icon: "/favicon.png",
+    apple: "/apple-icon.png",
   },
 };
 
-export default function RootLayout({
+function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
-    <html lang="en">
-      <body className={noto.className}>
-        <Header />
-        {children}
-        <Footer />
+    <html suppressHydrationWarning lang="en">
+      <body className={`${inter.variable} ${newsreader.variable}`}>
+        <ThemeProvider>
+          <Header />
+          {children}
+          <Footer />
+        </ThemeProvider>
         <Analytics />
       </body>
     </html>
   );
 }
+
+export default RootLayout;

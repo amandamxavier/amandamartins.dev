@@ -15,16 +15,16 @@
   justify-content: space-between;
 }
 
-.languages,
-.tags {
+.type,
+.tech {
   display: inline-flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 12px;
 }
 
-.languages strong,
-.tags strong {
+.type strong,
+.tech strong {
   font-size: 14px;
 }
 
@@ -37,7 +37,7 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 16px;
 }
 

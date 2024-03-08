@@ -1,31 +1,35 @@
 import Link from "next/link";
 
-import { Icon } from ".";
+import { LucideIcon } from "@/components/ui";
+import links from "@/data/pages.json";
+
 import styles from "./nav-bar.module.css";
 
-export default function NavBar() {
+interface NavBarProps {
+  className?: string;
+}
+
+function NavBar({ className }: NavBarProps) {
   return (
-    <ul className={styles.ul}>
-      <li key={0}>
-        <Link className={styles.link} href="/about">
-          About
-        </Link>
-      </li>
-      <li key={1}>
-        <Link className={styles.link} href="/resume">
-          Resume
-        </Link>
-      </li>
-      <li key={2}>
-        <Link
-          className={styles.link}
-          href="https://dev.to/amandamxavier"
-          target="_blank"
-        >
-          Blog
-          <Icon name="arrow" size={16} />
-        </Link>
-      </li>
-    </ul>
+    <nav className={`${styles.nav} ${className}`}>
+      <ul>
+        {links.map((item) => {
+          return (
+            <li key={item.id}>
+              {item.external ? (
+                <a href={item.href} target="_blank">
+                  {item.name}
+                  <LucideIcon name="ArrowUpRight" size={12} />
+                </a>
+              ) : (
+                <Link href={item.href}>{item.name}</Link>
+              )}
+            </li>
+          );
+        })}
+      </ul>
+    </nav>
   );
 }
+
+export default NavBar;

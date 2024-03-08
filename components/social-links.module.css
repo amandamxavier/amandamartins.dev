@@ -1,14 +1,15 @@
-.ul {
-  display: flex;
-  flex-direction: row;
+.links {
+  list-style: none;
+  display: inline-flex;
   align-items: center;
-  gap: 1rem;
+  gap: 12px;
 }
 
-.li {
-  transition: 0.2s;
+.links a {
+  color: var(--subtitle-color);
+  font-size: 16px;
 }
 
-.li:hover {
+.links a:hover {
   transform: translate(0, -2px);
 }

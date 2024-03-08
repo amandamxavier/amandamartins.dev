@@ -1,55 +1,139 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
-import contentFile from "@/data/content.json";
-import { Icon } from ".";
+import { Content, LucideIcon } from "@/components/ui";
+import content from "@/data/content.json";
+
 import styles from "./content-gallery.module.css";
 
-export default function ContentGallery() {
-  let max = 5;
-
-  if (typeof window !== "undefined" && window.screen.width <= 480) {
-    max = 2;
-  }
-
-  const [displayContent, setDisplayContent] = React.useState(max);
-  const [content] = React.useState(contentFile);
+const ContentGallery = () => {
+  const [displayContent, setDisplayContent] = React.useState(6);
+  const [filterLanguage, setFilterLanguage] = React.useState("all");
+  const [filterTag, setFilterTag] = React.useState("all");
+  const [data] = React.useState(content);
 
   const loadMore = () => {
-    setDisplayContent(displayContent + max);
+    setDisplayContent(displayContent + 6);
   };
 
+  const handleLanguageChange = (language: string) => {
+    setFilterLanguage(language);
+    setDisplayContent(6);
+  };
+
+  const handleTagChange = (tag: string) => {
+    setFilterTag(tag);
+    setDisplayContent(6);
+  };
+
+  const filteredData = data
+    .filter(
+      (content) =>
+        filterLanguage === "all" || content.language === filterLanguage,
+    )
+    .filter(
+      (content) => filterTag === "all" || content.tags.includes(filterTag),
+    );
+
   return (
-    <ul className={styles.grid}>
-      {content.slice(0, displayContent).map((item) => {
-        return (
-          <li key={item.id}>
-            <Link className={styles.card} href={item.link} target="_blank">
-              <Image
-                className={styles.thumbnail}
-                src={item.thumbnail}
-                alt={item.alt}
-                width={512}
-                height={288}
-              />
-              <h3>{item.type}</h3>
-              <h2 className={styles.title}>{item.title}</h2>
-              <div className={styles.bottom}>
-                <h3>{item.date}</h3>
-                <Icon name="arrow" size={16} />
-              </div>
-            </Link>
-          </li>
-        );
-      })}
-      {displayContent < content.length ? (
-        <button className={styles.button} onClick={loadMore}>
-          <Icon name="more" size={32} />
+    <div className={styles.gallery}>
+      <div className={styles.filters}>
+        <h2>
+          <LucideIcon name="Filter" size={16} />
+          Filters:
+        </h2>
+        <div className={styles.languages}>
+          <strong>Languages:</strong>
+          <button
+            className={
+              filterLanguage === "all" ? styles.enabled : styles.disabled
+            }
+            onClick={() => handleLanguageChange("all")}
+          >
+            All
+          </button>
+          <button
+            className={
+              filterLanguage === "en-US" ? styles.enabled : styles.disabled
+            }
+            onClick={() => handleLanguageChange("en-US")}
+          >
+            English
+          </button>
+          <button
+            className={
+              filterLanguage === "pt-BR" ? styles.enabled : styles.disabled
+            }
+            onClick={() => handleLanguageChange("pt-BR")}
+          >
+            Portuguese
+          </button>
+          <button
+            className={
+              filterLanguage === "es-ES" ? styles.enabled : styles.disabled
+            }
+            onClick={() => handleLanguageChange("es-ES")}
+          >
+            Spanish
+          </button>
+        </div>
+        <div className={styles.tags}>
+          <strong>Tags:</strong>
+          <button
+            className={filterTag === "all" ? styles.enabled : styles.disabled}
+            onClick={() => handleTagChange("all")}
+          >
+            All
+          </button>
+          <button
+            className={filterTag === "tech" ? styles.enabled : styles.disabled}
+            onClick={() => handleTagChange("tech")}
+          >
+            Tech
+          </button>
+          <button
+            className={
+              filterTag === "tutorial" ? styles.enabled : styles.disabled
+            }
+            onClick={() => handleTagChange("tutorial")}
+          >
+            Tutorial
+          </button>
+          <button
+            className={
+              filterTag === "career" ? styles.enabled : styles.disabled
+            }
+            onClick={() => handleTagChange("career")}
+          >
+            Career
+          </button>
+          <button
+            className={
+              filterTag === "diversity" ? styles.enabled : styles.disabled
+            }
+            onClick={() => handleTagChange("diversity")}
+          >
+            Diversity
+          </button>
+        </div>
+      </div>
+      <div className={styles.grid}>
+        {filteredData.length > 0 ? (
+          filteredData
+            .slice(0, displayContent)
+            .map((content) => <Content key={content.id} {...content} />)
+        ) : (
+          <p>No content found for the selected filters.</p>
+        )}
+      </div>
+      {displayContent < filteredData.length ? (
+        <button className={styles.load} onClick={loadMore}>
+          <LucideIcon name="MoreHorizontal" size={32} />
         </button>
       ) : null}
-    </ul>
+    </div>
   );
-}
+};
+
+export default ContentGallery;
