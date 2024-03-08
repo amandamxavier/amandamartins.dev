@@ -14,8 +14,6 @@ A clear and concise description of what the changes are.
 
 If there is no related issue, please create one.
 
-&nbsp;
-
 ### ✅ Mandatory checks
 
 - [ ] Have you written or updated tests for your changes? **(If applicable)**
