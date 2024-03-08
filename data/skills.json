@@ -11,176 +11,116 @@
   },
   {
     "id": 2,
-    "name": "Nextra.js",
-    "icon": "nextra"
-  },
-  {
-    "id": 3,
     "name": "TypeScript",
     "icon": "typescript"
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "JavaScript",
     "icon": "javascript"
   },
   {
-    "id": 5,
-    "name": "HTML",
-    "icon": "html"
-  },
-  {
-    "id": 6,
-    "name": "CSS",
-    "icon": "css"
-  },
-  {
-    "id": 7,
-    "name": "Sass",
-    "icon": "sass"
-  },
-  {
-    "id": 8,
-    "name": "Tailwind CSS",
-    "icon": "tailwindcss"
-  },
-  {
-    "id": 9,
-    "name": "Daisy UI",
-    "icon": "daisyui"
-  },
-  {
-    "id": 10,
-    "name": "Radix UI",
-    "icon": "radix"
-  },
-  {
-    "id": 11,
+    "id": 4,
     "name": "Node.js",
     "icon": "node"
   },
   {
-    "id": 12,
+    "id": 5,
+    "name": "Nest.js",
+    "icon": "nest"
+  },
+  {
+    "id": 6,
     "name": "Express.js",
     "icon": "express"
   },
   {
-    "id": 13,
+    "id": 7,
     "name": "Prisma",
     "icon": "prisma"
   },
   {
-    "id": 14,
-    "name": "PostgreSQL",
-    "icon": "postgresql"
-  },
-  {
-    "id": 15,
+    "id": 8,
     "name": "MongoDB",
     "icon": "mongodb"
   },
   {
-    "id": 16,
+    "id": 9,
+    "name": "PostgreSQL",
+    "icon": "postgresql"
+  },
+  {
+    "id": 10,
     "name": "Jest",
     "icon": "jest"
   },
   {
-    "id": 17,
+    "id": 11,
+    "name": "Vitest",
+    "icon": "vitest"
+  },
+  {
+    "id": 12,
     "name": "Playwright",
     "icon": "playwright"
   },
   {
-    "id": 18,
+    "id": 13,
     "name": "Cypress",
     "icon": "cypress"
   },
   {
-    "id": 19,
-    "name": "ESLint",
-    "icon": "eslint"
-  },
-  {
-    "id": 20,
-    "name": "Prettier",
-    "icon": "prettier"
-  },
-  {
-    "id": 21,
-    "name": "Bun",
-    "icon": "bun"
-  },
-  {
-    "id": 22,
-    "name": "npm",
-    "icon": "npm"
-  },
-  {
-    "id": 23,
-    "name": "Yarn",
-    "icon": "yarn"
-  },
-  {
-    "id": 24,
-    "name": "Git",
-    "icon": "git"
-  },
-  {
-    "id": 25,
-    "name": "Turborepo",
-    "icon": "turborepo"
-  },
-  {
-    "id": 26,
-    "name": "Python",
-    "icon": "python"
-  },
-  {
-    "id": 27,
+    "id": 14,
     "name": "Java",
     "icon": "java"
   },
   {
-    "id": 28,
+    "id": 15,
     "name": "Spring Framework",
     "icon": "spring"
   },
   {
-    "id": 29,
+    "id": 16,
+    "name": "JUnit",
+    "icon": "junit"
+  },
+  {
+    "id": 17,
+    "name": "Python",
+    "icon": "python"
+  },
+  {
+    "id": 18,
+    "name": "FastAPI",
+    "icon": "fastapi"
+  },
+  {
+    "id": 19,
+    "name": "Flask",
+    "icon": "flask"
+  },
+  {
+    "id": 20,
     "name": "Docker",
     "icon": "docker"
   },
   {
-    "id": 30,
-    "name": "GitHub Actions",
-    "icon": "githubactions"
-  },
-  {
-    "id": 31,
-    "name": "GitHub",
-    "icon": "github"
-  },
-  {
-    "id": 32,
-    "name": "GitLab",
-    "icon": "gitlab"
-  },
-  {
-    "id": 33,
+    "id": 21,
     "name": "AWS",
     "icon": "aws"
   },
   {
-    "id": 34,
+    "id": 22,
     "name": "Azure",
     "icon": "azure"
   },
   {
-    "id": 35,
+    "id": 23,
     "name": "DigitalOcean",
     "icon": "digitalocean"
   },
   {
-    "id": 36,
+    "id": 24,
     "name": "Vercel",
     "icon": "vercel"
   }

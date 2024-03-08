@@ -1,30 +1,22 @@
-.ul {
-  display: flex;
-  flex-direction: row;
+.nav ul {
+  display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 16px;
+  list-style-type: none;
 }
 
-.ul *,
-.ul *:hover {
-  text-decoration: none;
-}
-
-.link {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  padding: 0.4rem 0.8rem;
-  border-radius: 2rem;
-  font-weight: 600;
-}
-
-.link:hover {
-  background-color: var(--color-transparent);
-}
-
-@media only screen and (max-width: 480px) {
-  .ul {
-    display: none;
+@media (max-width: 960px) {
+  .nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    padding: 16px;
+    width: 100dvw;
+    top: 0;
+    left: 0;
   }
 }

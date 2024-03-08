@@ -1,65 +1,119 @@
 [
   {
     "id": 0,
-    "date": "Sep 6, 2023",
-    "type": "Podcast",
-    "title": "Os desafios para pessoas desenvolvedoras iniciantes - Episódio #40",
-    "link": "https://podcasters.spotify.com/pod/show/feministech/episodes/Os-desafios-para-pessoas-desenvolverodas-iniciantes---Episdio-40-e28vtdi",
-    "thumbnail": "/assets/images/content/os-desafios-para-pessoas-desenvolverodas-iniciantes.webp",
-    "alt": "Logo of the Feministech Podcast"
+    "href": "https://community.revelo.com.br/minha-jornada-enquanto-mulher-trans-no-tecnologia/",
+    "img": {
+      "src": "/images/content/minha-jornada-enquanto-mulher-trans-no-tecnologia.webp",
+      "alt": "Colagem da bandeira transgênero ao lado do título do artigo"
+    },
+    "type": "Blog",
+    "title": "Minha jornada enquanto mulher trans no tecnologia",
+    "date": "Feb 27, 2024",
+    "language": "pt-BR",
+    "tags": ["diversity", "career"]
   },
   {
     "id": 1,
-    "date": "Apr 20, 2023",
+    "href": "https://community.listopro.com/mi-camino-como-mujer-trans-en-tecnologia/",
+    "img": {
+      "src": "/images/content/mi-camino-como-mujer-trans-en-tecnologia.webp",
+      "alt": "Collage de la bandera transgénero junto al título del artículo"
+    },
     "type": "Blog",
-    "title": "Principais alternativas open-source e gratuitas para absolutamente tudo que vier a cabeça!",
-    "link": "https://dev.to/acaverna/principais-alternativas-open-source-e-gratuitas-para-absolutamente-tudo-que-vier-a-cabeca-1h1g",
-    "thumbnail": "/assets/images/content/principais-alternativas-open-source-e-gratuitas-para-absolutamente-tudo-que-vier-a-cabeca.webp",
-    "alt": "Yoda Plush Toy"
+    "title": "Mi camino como mujer trans en tecnología",
+    "date": "Feb 27, 2024",
+    "language": "es-ES",
+    "tags": ["diversity", "career"]
   },
   {
     "id": 2,
-    "date": "Feb 26, 2023",
-    "type": "Blog",
-    "title": "Primeiros passos com WSL",
-    "link": "https://dev.to/feministech/primeiros-passos-com-wsl-fk1",
-    "thumbnail": "/assets/images/content/primeiros-passos-com-wsl.webp",
-    "alt": "Collage of Ubuntu logo over the Windows 11 logo"
+    "href": "https://podcasters.spotify.com/pod/show/feministech/episodes/Os-desafios-para-pessoas-desenvolverodas-iniciantes---Episdio-40-e28vtdi",
+    "img": {
+      "src": "/images/content/os-desafios-para-pessoas-desenvolverodas-iniciantes.webp",
+      "alt": "Logo do podcast da Feministech"
+    },
+    "type": "Podcast",
+    "title": "Os desafios para pessoas desenvolvedoras iniciantes - Episódio #40",
+    "date": "Sep 6, 2023",
+    "language": "pt-BR",
+    "tags": ["diversity", "career"]
   },
   {
     "id": 3,
-    "date": "Jul 24, 2022",
+    "href": "https://dev.to/acaverna/principais-alternativas-open-source-e-gratuitas-para-absolutamente-tudo-que-vier-a-cabeca-1h1g",
+    "img": {
+      "src": "/images/content/principais-alternativas-open-source-e-gratuitas-para-absolutamente-tudo-que-vier-a-cabeca.webp",
+      "alt": "Pelúcia do Yoda"
+    },
     "type": "Blog",
-    "title": "Instalação do PopOS em Dual Boot com o Windows",
-    "link": "https://dev.to/acaverna/instalacao-do-popos-em-dual-boot-com-o-windows-48h8",
-    "thumbnail": "/assets/images/content/instalacao-do-popos-em-dual-boot-com-o-windows.webp",
-    "alt": "Logo of the PopOS and Windows 11 side by side"
+    "title": "Principais alternativas open-source e gratuitas para absolutamente tudo que vier a cabeça!",
+    "date": "Apr 20, 2023",
+    "language": "pt-BR",
+    "tags": ["tech"]
   },
   {
     "id": 4,
-    "date": "May 19, 2022",
-    "type": "Interview",
-    "title": "Quem é Mandys?",
-    "link": "https://dev.to/feministech/quem-e-mandys-3ai9",
-    "thumbnail": "/assets/images/content/quem-e-mandys.webp",
-    "alt": "Amanda with a collage of an interrogation symbol over her head"
+    "href": "https://dev.to/feministech/primeiros-passos-com-wsl-fk1",
+    "img": {
+      "src": "/images/content/primeiros-passos-com-wsl.webp",
+      "alt": "Colagem do logo do Ubuntu com o logo Windows 11"
+    },
+    "type": "Blog",
+    "title": "Primeiros passos com WSL",
+    "date": "Feb 26, 2023",
+    "language": "pt-BR",
+    "tags": ["tech", "tutorial"]
   },
   {
     "id": 5,
-    "date": "Jan 5, 2022",
+    "href": "https://dev.to/acaverna/instalacao-do-popos-em-dual-boot-com-o-windows-48h8",
+    "img": {
+      "src": "/images/content/instalacao-do-popos-em-dual-boot-com-o-windows.webp",
+      "alt": "Logo do PopOS com o logo do Windows 11 lado a lado"
+    },
     "type": "Blog",
-    "title": "Como personalizar o seu Windows Terminal com Powershell e oh-my-posh",
-    "link": "https://dev.to/feministech/como-personalizar-o-seu-windows-terminal-com-poweshell-e-oh-my-posh-3j52",
-    "thumbnail": "/assets/images/content/como-personalizar-o-seu-windows-terminal-com-poweshell-e-oh-my-posh.webp",
-    "alt": "Collage of the logo of Windows Terminal and oh-my-posh over the Windows 11 logo"
+    "title": "Instalação do PopOS em Dual Boot com o Windows",
+    "date": "Jul 24, 2022",
+    "language": "pt-BR",
+    "tags": ["tech", "tutorial"]
   },
   {
     "id": 6,
-    "date": "Feb 13, 2020",
+    "href": "https://dev.to/feministech/quem-e-mandys-3ai9",
+    "img": {
+      "src": "/images/content/quem-e-mandys.webp",
+      "alt": "Amanda com uma colagem de interrogação sob o rosto"
+    },
+    "type": "Interview",
+    "title": "Quem é Mandys?",
+    "date": "May 19, 2022",
+    "language": "pt-BR",
+    "tags": ["diversity"]
+  },
+  {
+    "id": 7,
+    "href": "https://dev.to/feministech/como-personalizar-o-seu-windows-terminal-com-poweshell-e-oh-my-posh-3j52",
+    "img": {
+      "src": "/images/content/como-personalizar-o-seu-windows-terminal-com-poweshell-e-oh-my-posh.webp",
+      "alt": "Colagem do logo Windows 11 com o logo do Powershell e o logo do oh-my-posh"
+    },
+    "type": "Blog",
+    "title": "Como personalizar o seu Windows Terminal com Powershell e oh-my-posh",
+    "date": "Jan 5, 2022",
+    "language": "pt-BR",
+    "tags": ["tech", "tutorial"]
+  },
+  {
+    "id": 8,
+    "href": "https://medium.com/linte/seja-exatamente-quem-voc%C3%AA-%C3%A9-2684a62865a7",
+    "img": {
+      "src": "/images/content/seja-exatamente-quem-voce-e.webp",
+      "alt": "Mão segurando uma flor azul"
+    },
     "type": "Blog",
     "title": "Seja exatamente quem você é",
-    "link": "https://medium.com/linte/seja-exatamente-quem-voc%C3%AA-%C3%A9-2684a62865a7",
-    "thumbnail": "/assets/images/content/seja-exatamente-quem-voce-e.webp",
-    "alt": "Hand holding a blue flower"
+    "date": "Feb 13, 2020",
+    "language": "pt-BR",
+    "tags": ["diversity", "career"]
   }
 ]

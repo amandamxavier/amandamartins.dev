@@ -1,20 +1,22 @@
 [
   {
     "id": 0,
-    "logo": "/assets/images/logos/scrimba.webp",
-    "alt": "Scrimba logo",
-    "dates": "In progress...",
-    "type": "Certificate",
+    "img": {
+      "src": "/images/logos/scrimba.webp",
+      "alt": "Scrimba logo"
+    },
+    "href": "http://www.scrimba.com",
     "title": "Frontend Developer Career Path",
-    "link": "http://www.scrimba.com"
+    "details": "In progress... | Certificate"
   },
   {
     "id": 1,
-    "logo": "/assets/images/logos/senac.webp",
-    "alt": "Senac University Center logo",
-    "dates": "2021 - 2023",
-    "type": "Two and a half years degree",
+    "img": {
+      "src": "/images/logos/senac.webp",
+      "alt": "Senac University Center logo"
+    },
+    "href": "http://ead.senac.com",
     "title": "Systems Analysis and Development",
-    "link": "http://ead.senac.com"
+    "details": "2021 - 2023 | Two and a half years degree"
   }
 ]

@@ -1,21 +1,22 @@
-import Link from "next/link";
+import { ReactIcon } from "@/components/ui";
+import links from "@/data/social.json";
 
-import { Icon } from ".";
-import links from "@/data/social-links.json";
 import styles from "./social-links.module.css";
 
-export default function SocialLinks() {
+function SocialLinks() {
   return (
-    <ul className={styles.ul}>
+    <ul className={styles.links}>
       {links.map((item) => {
         return (
-          <li key={item.id} className={styles.li}>
-            <Link href={item.url} target="_blank">
-              <Icon name={item.icon} size={16} />
-            </Link>
+          <li key={item.id}>
+            <a href={item.href} target="_blank">
+              <ReactIcon name={item.icon} />
+            </a>
           </li>
         );
       })}
     </ul>
   );
 }
+
+export default SocialLinks;

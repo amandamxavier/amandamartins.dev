@@ -1,115 +1,195 @@
 [
   {
     "id": 0,
-    "type": "Web Application",
+    "type": "WebApp",
+    "tech": "next.js",
     "title": "Pomo for Streams",
     "description": "All-in-one co-working live streaming toolkit.",
-    "site": "https://pomo-for-streams.vercel.app/",
-    "docs": "https://pomo-for-streams-docs.vercel.app/",
-    "github": "https://github.com/amandamxavier/pomo-for-streams",
-    "thumbnail": "/assets/images/projects/pomo-for-streams.webp",
-    "alt": "Screenshot of the Pomo for Streams application homepage",
-    "stack": [
-      { "id": 0, "icon": "next", "name": "Next.js" },
-      { "id": 1, "icon": "nextra", "name": "Nextra.js" },
-      { "id": 2, "icon": "radix", "name": "Radix UI" },
-      { "id": 3, "icon": "react", "name": "React.js" },
-      { "id": 4, "icon": "prisma", "name": "Prisma" },
-      { "id": 5, "icon": "mongodb", "name": "MongoDB" },
-      { "id": 6, "icon": "eslint", "name": "ESLint" },
-      { "id": 7, "icon": "prettier", "name": "Prettier" },
-      { "id": 8, "icon": "bun", "name": "Bun" },
-      { "id": 9, "icon": "turborepo", "name": "Turborepo" },
-      { "id": 10, "icon": "vercel", "name": "Vercel" }
-    ]
+    "links": [
+      {
+        "id": 0,
+        "href": "https://pomo-for-streams.vercel.app",
+        "name": "Homepage",
+        "icon": "Home"
+      },
+      {
+        "id": 1,
+        "href": "https://pomo-for-streams-docs.vercel.app",
+        "name": "Docs",
+        "icon": "Book"
+      },
+      {
+        "id": 2,
+        "href": "https://github.com/amandamxavier/pomo-for-streams",
+        "name": "GitHub",
+        "icon": "Github"
+      }
+    ],
+    "img": {
+      "src": "/images/projects/pomo-for-streams.webp",
+      "alt": "Under development..."
+    }
   },
   {
     "id": 1,
     "type": "Website",
+    "tech": "next.js",
     "title": "Portfolio",
     "description": "Professional portfolio website, built to showcase my work and skills.",
-    "site": "https://amandamartins.dev",
-    "docs": "",
-    "github": "https://github.com/amandamxavier/amandamartins.dev",
-    "thumbnail": "/assets/images/projects/portfolio.webp",
-    "alt": "Screenshot of the portfolio website",
-    "stack": [
-      { "id": 0, "icon": "next", "name": "Next.js" },
-      { "id": 1, "icon": "react", "name": "React.js" },
-      { "id": 2, "icon": "eslint", "name": "ESLint" },
-      { "id": 3, "icon": "prettier", "name": "Prettier" },
-      { "id": 4, "icon": "bun", "name": "Bun" },
-      { "id": 5, "icon": "vercel", "name": "Vercel" }
-    ]
+    "links": [
+      {
+        "id": 0,
+        "href": "https://amandamartins.dev",
+        "name": "Homepage",
+        "icon": "Home"
+      },
+      {
+        "id": 1,
+        "href": "https://github.com/amandamxavier/amandamartins.dev",
+        "name": "GitHub",
+        "icon": "Github"
+      }
+    ],
+    "img": {
+      "src": "/images/projects/portfolio.webp",
+      "alt": "Screenshot of the portfolio website"
+    }
   },
   {
     "id": 2,
     "type": "Chatbot",
+    "tech": "python",
     "title": "Twitch Bot",
     "description": "Twitch chatbot which provided commands and information for my Twitch channel viewers.",
-    "site": "",
-    "docs": "https://amandamxavier.github.io/twitch-bot/",
-    "github": "https://github.com/amandamxavier/twitch-bot",
-    "thumbnail": "/assets/images/projects/twitch-bot.webp",
-    "alt": "Screenshot of the Twitch Bot documentation",
-    "stack": [
-      { "id": 0, "icon": "python", "name": "Python" },
-      { "id": 0, "icon": "python", "name": "TwitchIO" }
-    ]
+    "links": [
+      {
+        "id": 0,
+        "href": "https://twitch.tv/vyolet2049",
+        "name": "Twitch",
+        "icon": "Twitch"
+      },
+      {
+        "id": 1,
+        "href": "https://amandamxavier.github.io/twitch-bot/",
+        "name": "Docs",
+        "icon": "Book"
+      },
+      {
+        "id": 2,
+        "href": "https://github.com/amandamxavier/twitch-bot",
+        "name": "GitHub",
+        "icon": "Github"
+      }
+    ],
+    "img": {
+      "src": "/images/projects/twitch-bot.webp",
+      "alt": "Screenshot of the Twitch Bot documentation"
+    }
   },
   {
     "id": 3,
     "type": "Chatbot",
+    "tech": "python",
     "title": "Feministech Bot",
     "description": "Twitch chatbot which provide Feministech information and commands on all Feministech channels.",
-    "site": "http://feministech.github.io/feministech-bot/",
-    "docs": "",
-    "github": "https://github.com/feministech/feministech-bot",
-    "thumbnail": "/assets/images/projects/feministech-bot.webp",
-    "alt": "Screenshot of the Feministech Bot documentation",
-    "stack": [
-      { "id": 0, "icon": "python", "name": "Python" },
-      { "id": 1, "icon": "python", "name": "Mkdocs" },
-      { "id": 2, "icon": "python", "name": "TwitchIO" }
-    ]
+    "links": [
+      {
+        "id": 0,
+        "href": "https://www.twitch.tv/team/livecodergirls",
+        "name": "Twitch",
+        "icon": "Twitch"
+      },
+      {
+        "id": 1,
+        "href": "http://feministech.github.io/feministech-bot/",
+        "name": "Docs",
+        "icon": "Book"
+      },
+      {
+        "id": 2,
+        "href": "https://github.com/feministech/feministech-bot",
+        "name": "GitHub",
+        "icon": "Github"
+      }
+    ],
+    "img": {
+      "src": "/images/projects/feministech-bot.webp",
+      "alt": "Screenshot of the Feministech Bot documentation"
+    }
   },
   {
     "id": 4,
     "type": "Game",
+    "tech": "godot",
     "title": "Untitled",
     "description": "3D puzzle game made for the Women Game Jam 2023",
-    "site": "https://pixelmandy.itch.io/purrsh-the-button",
-    "docs": "",
-    "github": "https://github.com/amandamxavier/purrsh-the-button",
-    "thumbnail": "/assets/images/projects/purrsh-the-button.webp",
-    "alt": "Thumbnail of the Purrsh the Button game",
-    "stack": [{ "id": 0, "icon": "godot", "name": "Godot" }]
+    "links": [
+      {
+        "id": 0,
+        "href": "https://vyolet2049.itch.io/purrsh-the-button",
+        "name": "itch.io",
+        "icon": "Joystick"
+      },
+      {
+        "id": 1,
+        "href": "https://github.com/amandamxavier/purrsh-the-button",
+        "name": "GitHub",
+        "icon": "Github"
+      }
+    ],
+    "img": {
+      "src": "/images/projects/purrsh-the-button.webp",
+      "alt": "Thumbnail of the Purrsh the Button game"
+    }
   },
   {
     "id": 5,
     "type": "Game",
+    "tech": "unity",
     "title": "Connections",
     "description": "2D story-telling game made for the Women Game Jam 2020.",
-    "site": "https://pixelmandy.itch.io/connections",
-    "docs": "",
-    "github": "https://github.com/amandamxavier/connections",
-    "thumbnail": "/assets/images/projects/connections.webp",
-    "alt": "Thumbnail of the Connections game",
-    "stack": [
-      { "id": 0, "icon": "unity", "name": "Unity" },
-      { "id": 0, "icon": "unity", "name": "Photon" }
-    ]
+    "links": [
+      {
+        "id": 0,
+        "href": "https://vyolet2049.itch.io/connections",
+        "name": "itch.io",
+        "icon": "Joystick"
+      },
+      {
+        "id": 1,
+        "href": "https://github.com/amandamxavier/connections",
+        "name": "GitHub",
+        "icon": "Github"
+      }
+    ],
+    "img": {
+      "src": "/images/projects/connections.webp",
+      "alt": "Thumbnail of the Connections game"
+    }
   },
   {
     "id": 6,
     "type": "Game",
+    "tech": "godot",
     "title": "Terragaia Chronicles",
     "description": "Platform game made for June/2020 edition of Definitely Not Another Game Jam.",
-    "site": "https://pixelmandy.itch.io/terragaia",
-    "docs": "",
-    "github": "https://github.com/amandamxavier/terragaia",
-    "thumbnail": "/assets/images/projects/terragaia.webp",
-    "alt": "Thumbnail of the Terragia Chronicles game",
-    "stack": [{ "id": 0, "icon": "godot", "name": "Godot" }]
+    "links": [
+      {
+        "id": 0,
+        "href": "https://vyolet2049.itch.io/terragaia",
+        "name": "itch.io",
+        "icon": "Joystick"
+      },
+      {
+        "id": 1,
+        "href": "https://github.com/amandamxavier/terragaia",
+        "name": "GitHub",
+        "icon": "Github"
+      }
+    ],
+    "img": {
+      "src": "/images/projects/terragaia.webp",
+      "alt": "Thumbnail of the Terragia Chronicles game"
+    }
   }
 ]

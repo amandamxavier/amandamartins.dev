@@ -1,6 +1,6 @@
 import { MetadataRoute } from "next";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: "https://amandamartins.dev",
@@ -15,10 +15,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: "https://amandamartins.dev/resume",
+      url: "https://amandamartins.dev/content",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
     },
+    {
+      url: "https://amandamartins.dev/projects",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
   ];
 }
+
+export default sitemap;
